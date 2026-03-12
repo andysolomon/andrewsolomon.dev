@@ -3,36 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Case Study | Bugfix & Performance Teardown</title>
+    <title>Case Study | Weather Data Dashboard</title>
     <link rel="stylesheet" href="../styles.css" />
   </head>
   <body>
     <main class="site-header">
       <p class="eyebrow">Case Study</p>
-      <h1>Bugfix & Performance Teardown</h1>
-      <p class="lede">A debugging and optimization walkthrough with measurable improvements.</p>
+      <h1>Weather Data Dashboard</h1>
+      <p class="lede">A live weather dashboard with data fetching, chart visualizations, and provider fallback handling.</p>
       <section class="panel">
         <h2>Problem</h2>
         <p>
-          Build a credible optimization case-study project that demonstrates profiling workflow, root-cause analysis,
-          and measurable improvement reporting.
+          Build a practical demo that presents real weather metrics in a polished dashboard UI with reliable loading,
+          error handling, and chart-based trend visualization.
         </p>
         <h2>What I Investigated</h2>
         <ul>
-          <li>Profiling runtime bottlenecks</li>
-          <li>Tracing state/render churn</li>
-          <li>Auditing network and bundle impact</li>
+          <li>Weather provider integration flow (Open-Meteo primary, OpenWeather fallback)</li>
+          <li>Loading and failure UX under network/API failure states</li>
+          <li>Chart rendering patterns and responsive layout behavior</li>
         </ul>
-        <h2>Fixes Implemented</h2>
+        <h2>Implementation Highlights</h2>
         <p>
-          Initial scaffold is deployed and structured for iterative performance experiments, benchmarks, and documented
-          before/after comparisons.
+          Implemented a React + TypeScript dashboard with metric cards, multi-chart views, weather data services, and
+          test coverage for core components and rendering states.
         </p>
-        <h2>Before / After</h2>
+        <h2>Current Status</h2>
         <ul>
-          <li>Load time: baseline capture pending -> optimization pass pending</li>
-          <li>Time to interaction: baseline capture pending -> optimization pass pending</li>
-          <li>Error rate: baseline capture pending -> stabilization pass pending</li>
+          <li>Live production deployment on Vercel</li>
+          <li>Automated tests, linting, and build passing</li>
+          <li>Additional data-accuracy refinements planned for next iteration</li>
         </ul>
         <h2>Links</h2>
         <ul>
