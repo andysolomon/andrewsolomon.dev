@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Case Study | Client Intake + Estimate Tool</title>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <main class="site-header">
+      <p class="eyebrow">Case Study</p>
+      <h1>Client Intake + Estimate Tool</h1>
+      <p class="lede">A multi-step intake wizard that generates ballpark effort and cost estimates for freelance discovery calls.</p>
+      <section class="panel">
+        <h2>Problem</h2>
+        <p>
+          Freelance discovery calls require quick, transparent scope estimates — but manually calculating
+          hours and costs for each prospect is slow and inconsistent. Needed a tool that collects project
+          requirements in a structured way and produces a credible estimate range clients can review immediately.
+        </p>
+        <h2>Build Scope</h2>
+        <ul>
+          <li>6-step intake wizard: project type, complexity, integrations, timeline, budget band, and risks</li>
+          <li>Weighted scoring engine that produces low/likely/high hour and cost ranges</li>
+          <li>Live estimate panel that updates as selections change</li>
+          <li>Budget-fit messaging that compares estimate to selected budget band</li>
+          <li>Copy-to-clipboard summary for sharing with clients</li>
+          <li>Transparent assumptions list so estimates feel credible, not arbitrary</li>
+        </ul>
+        <h2>Tech Stack</h2>
+        <p>React, TypeScript, Vite, custom CSS, Vitest, Vercel</p>
+        <h2>Outcome</h2>
+        <p>
+          Live and deployed. 42 unit tests covering the estimate engine, brief builder, and state management.
+          Responsive layout works across desktop and mobile. Estimate logic is config-driven and easy to tune
+          without touching component code.
+        </p>
+        <h2>Links</h2>
+        <ul>
+          <li>
+            Live demo:
+            <a href="https://client-intake-estimate-tool.vercel.app"
+              >client-intake-estimate-tool.vercel.app</a
+            >
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
