@@ -1,0 +1,30 @@
+Project: React + Supabase Mini App
+Status: IN PROGRESS
+
+Last Updated: 2026-03-12 15:16 EDT
+
+Milestones
+[~] M1 - Project scaffold (Vite + React + TS)
+[ ] M2 - Supabase project created + env configured
+[ ] M3 - Auth flow (magic link) implemented
+[ ] M4 - Protected routes/session handling complete
+[ ] M5 - Tasks table + RLS policies applied
+[ ] M6 - Task CRUD UI complete
+[ ] M7 - Loading/empty/error states polished
+[ ] M8 - Lint + typecheck + tests passing
+[ ] M9 - Vercel production deploy complete
+[ ] M10 - Portfolio case study updated with links/results
+
+Current Task
+- Set up standalone repo and scaffold Vite + React + TypeScript app.
+
+Blockers
+- [NONE]
+
+Notes
+- Use a new Supabase project for clean isolation.
+- Keep claims factual for portfolio and Upwork usage.
+- v1 excludes uploads/OAuth/advanced features.
+
+Change Log
+- [2026-03-12 15:16 EDT] Initialized active execution state; M1 set to in progress.

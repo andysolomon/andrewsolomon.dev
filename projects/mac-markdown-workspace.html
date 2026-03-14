@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Case Study | Mac Markdown Workspace (Web)</title>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <main class="site-header">
+      <p class="eyebrow">Case Study</p>
+      <h1>Mac Markdown Workspace (Web App)</h1>
+      <p class="lede">
+        A polished Markdown workspace with source editing, split preview, WYSIWYG mode,
+        Mermaid diagrams, math rendering, themes, and export tooling.
+      </p>
+      <section class="panel">
+        <h2>Problem</h2>
+        <p>
+          Build a local-first Markdown product experience that feels like a desktop workspace,
+          while also shipping a browser-deployable web version for easy demos and portfolio review.
+        </p>
+
+        <h2>Implementation Highlights</h2>
+        <ul>
+          <li>React + Electron architecture with secure preload/main boundaries</li>
+          <li>CodeMirror 6 source editor with counters and editing modes</li>
+          <li>Rich markdown preview with GFM, Mermaid, emoji, and KaTeX math</li>
+          <li>Milkdown-based editable preview (WYSIWYG mode)</li>
+          <li>Theme system (light/dark/system) and keyboard shortcut workflow</li>
+          <li>Export support paths for TXT, PDF, and DOCX</li>
+        </ul>
+
+        <h2>Current Status</h2>
+        <ul>
+          <li>Desktop app build complete</li>
+          <li>Web app deployed on Vercel for live demonstration</li>
+          <li>Lint, typecheck, tests, and web build passing in project checks</li>
+        </ul>
+
+        <h2>Links</h2>
+        <ul>
+          <li>
+            Live demo:
+            <a href="https://mac-markdown-workspace.vercel.app">mac-markdown-workspace.vercel.app</a>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
