@@ -3,20 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Case Study | Pumpline Marketplace</title>
+    <title>Pumpline Marketplace | Andrew Solomon</title>
+    <meta name="theme-color" content="#0f1117" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../styles.css" />
   </head>
   <body>
-    <main class="site-header">
-      <p class="eyebrow">Case Study</p>
-      <h1>Pumpline Marketplace</h1>
-      <p class="lede">A trust-first septic services marketplace designed for rural homeowners and local providers.</p>
-      <section class="panel">
+    <div class="ambient"></div>
+
+    <nav class="nav">
+      <div class="nav-inner">
+        <a href="/" class="nav-brand">andrew solomon</a>
+        <div class="nav-links">
+          <a href="/#experience">Experience</a>
+          <a href="/#skills">Skills</a>
+          <a href="/#projects">Projects</a>
+          <a href="mailto:andrewsolomon.edu@gmail.com">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <main class="case-study container">
+      <a href="/" class="back-link">&larr; Back to all projects</a>
+      <header class="case-study-header">
+        <span class="badge">Case Study</span>
+        <h1>Pumpline Marketplace</h1>
+        <p class="lede">A trust-first septic services marketplace designed for rural homeowners and local providers.</p>
+        <div class="case-study-meta">
+          <a class="meta-pill" href="https://pumpline-marketplace.vercel.app">Live Demo</a>
+        </div>
+      </header>
+      <article class="case-study-body">
         <h2>Problem</h2>
         <p>
           Septic emergencies are high-stakes and expensive, but homeowners often rely on unreliable word-of-mouth with
           weak trust signals, delayed response times, and inconsistent pricing transparency.
         </p>
+
         <h2>Build Scope</h2>
         <ul>
           <li>County-first provider directory with profile quality and trust signals</li>
@@ -25,19 +53,24 @@
           <li>Pilot-friendly onboarding flow for trusted local providers</li>
           <li>Foundation for property-level maintenance history as a phase-two data moat</li>
         </ul>
+
         <h2>Outcome</h2>
         <p>
           MVP is live with core marketplace flows and supporting test/lint/build quality gates. The product is
           structured for county-by-county rollout and phased trust/data expansion.
         </p>
-        <h2>Links</h2>
-        <ul>
-          <li>
-            Live demo:
-            <a href="https://pumpline-marketplace.vercel.app">pumpline-marketplace.vercel.app</a>
-          </li>
-        </ul>
-      </section>
+      </article>
     </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-links">
+          <a href="mailto:andrewsolomon.edu@gmail.com">andrewsolomon.edu@gmail.com</a>
+          <a href="https://github.com/andysolomon">GitHub</a>
+          <a href="https://www.linkedin.com/in/andrew-solomon-44550a24/">LinkedIn</a>
+        </div>
+        <p class="footer-copy">&copy; 2026 Andrew Solomon</p>
+      </div>
+    </footer>
   </body>
 </html>

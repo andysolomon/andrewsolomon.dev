@@ -3,20 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Case Study | City-Based Weather Dashboard</title>
+    <title>City-Based Weather Dashboard | Andrew Solomon</title>
+    <meta name="theme-color" content="#0f1117" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../styles.css" />
   </head>
   <body>
-    <main class="site-header">
-      <p class="eyebrow">Case Study</p>
-      <h1>City-Based Weather Dashboard</h1>
-      <p class="lede">A live weather dashboard with city selection, chart visualizations, and provider fallback handling.</p>
-      <section class="panel">
+    <div class="ambient"></div>
+
+    <nav class="nav">
+      <div class="nav-inner">
+        <a href="/" class="nav-brand">andrew solomon</a>
+        <div class="nav-links">
+          <a href="/#experience">Experience</a>
+          <a href="/#skills">Skills</a>
+          <a href="/#projects">Projects</a>
+          <a href="mailto:andrewsolomon.edu@gmail.com">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <main class="case-study container">
+      <a href="/" class="back-link">&larr; Back to all projects</a>
+      <header class="case-study-header">
+        <span class="badge">Case Study</span>
+        <h1>City-Based Weather Dashboard</h1>
+        <p class="lede">A live weather dashboard with city selection, chart visualizations, and provider fallback handling.</p>
+        <div class="case-study-meta">
+          <a class="meta-pill" href="https://performance-teardown-demo.vercel.app">Live Demo</a>
+        </div>
+      </header>
+      <article class="case-study-body">
         <h2>Problem</h2>
         <p>
           Build a practical demo that presents real weather metrics across multiple cities in a polished dashboard UI,
           with reliable loading, error handling, and chart-based trend visualization.
         </p>
+
         <h2>What I Investigated</h2>
         <ul>
           <li>City selection flow with persisted preferred location</li>
@@ -24,27 +52,31 @@
           <li>Loading and failure UX under network/API failure states</li>
           <li>Chart rendering patterns and responsive layout behavior</li>
         </ul>
+
         <h2>Implementation Highlights</h2>
         <p>
           Implemented a city-based dashboard with metric cards, multi-chart views, weather data services, and test
           coverage for core components and rendering states.
         </p>
+
         <h2>Current Status</h2>
         <ul>
           <li>Live production deployment on Vercel</li>
           <li>Automated tests, linting, and build passing</li>
           <li>Additional data-accuracy refinements planned for next iteration</li>
         </ul>
-        <h2>Links</h2>
-        <ul>
-          <li>
-            Live demo:
-            <a href="https://performance-teardown-demo.vercel.app"
-              >performance-teardown-demo.vercel.app</a
-            >
-          </li>
-        </ul>
-      </section>
+      </article>
     </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-links">
+          <a href="mailto:andrewsolomon.edu@gmail.com">andrewsolomon.edu@gmail.com</a>
+          <a href="https://github.com/andysolomon">GitHub</a>
+          <a href="https://www.linkedin.com/in/andrew-solomon-44550a24/">LinkedIn</a>
+        </div>
+        <p class="footer-copy">&copy; 2026 Andrew Solomon</p>
+      </div>
+    </footer>
   </body>
 </html>

@@ -3,11 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Andrew Solomon | Product Engineer</title>
+    <title>Andrew Solomon | Full-Stack Engineer & Consultant</title>
     <meta
       name="description"
-      content="Andrew Solomon builds practical products with fast iteration and clear communication."
+      content="15+ years building enterprise software across fintech, media, and automotive. Full-stack engineering, Salesforce platform expertise, and technical consulting."
     />
+    <meta name="theme-color" content="#0f1117" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='80'>AS</text></svg>" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,93 +20,169 @@
   </head>
   <body>
     <div class="ambient"></div>
-    <header class="site-header">
-      <p class="eyebrow">andrewsolomon.dev</p>
-      <h1>Shipping clean product work with clear execution.</h1>
-      <p class="lede">
-        I build practical web products, unblock existing apps, and communicate in tight delivery loops.
-      </p>
-      <div class="cta-row">
-        <a class="btn btn-primary" href="mailto:[ADD-EMAIL]">Contact</a>
-        <a class="btn btn-ghost" href="[ADD-UPWORK-PROFILE-LINK]">Upwork</a>
+    <div class="ambient ambient-2"></div>
+
+    <nav class="nav">
+      <div class="nav-inner">
+        <a href="/" class="nav-brand">andrew solomon</a>
+        <div class="nav-links">
+          <a href="#experience">Experience</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="mailto:andrewsolomon.edu@gmail.com">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <header class="hero">
+      <div class="container">
+        <span class="badge">Full-Stack Engineer & Consultant</span>
+        <h1>Andrew Solomon</h1>
+        <p class="hero-tagline">15+ years building enterprise software across fintech, media, and automotive.</p>
+        <p class="hero-description">I ship practical products, unblock existing systems, and lead with clear execution. 20+ full Salesforce implementations, from architecture through delivery.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="mailto:andrewsolomon.edu@gmail.com">Get in Touch</a>
+          <a class="btn btn-ghost" href="#experience">View Experience</a>
+        </div>
       </div>
     </header>
 
     <main>
-      <section class="panel">
-        <h2>Featured Case Studies</h2>
-        <p class="sub">Three focused proofs you can send directly in proposals.</p>
+      <section id="experience" class="experience container">
+        <h2>Experience</h2>
+        <div class="exp-list">
+          <div class="exp-row">
+            <span class="exp-company">Thrivent Financial</span>
+            <span class="exp-role">Senior Salesforce Engineer & Technical Lead</span>
+            <span class="exp-dates">2025 – Present</span>
+          </div>
+          <div class="exp-row">
+            <span class="exp-company">Arcnology</span>
+            <span class="exp-role">Founder & Principal Consultant</span>
+            <span class="exp-dates">2023 – Present</span>
+          </div>
+          <div class="exp-row">
+            <span class="exp-company">CodeScience</span>
+            <span class="exp-role">Lead Frontend Engineer</span>
+            <span class="exp-dates">2018 – 2022</span>
+          </div>
+          <div class="exp-row">
+            <span class="exp-company">CNN</span>
+            <span class="exp-role">Senior JavaScript Developer</span>
+            <span class="exp-dates">2018</span>
+          </div>
+          <div class="exp-row">
+            <span class="exp-company">Cox Automotive</span>
+            <span class="exp-role">Senior Software Engineer</span>
+            <span class="exp-dates">2014 – 2018</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="skills container">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-col">
+            <h3>Frontend</h3>
+            <ul><li>React</li><li>Next.js</li><li>TypeScript</li><li>Playwright</li><li>Jest</li></ul>
+          </div>
+          <div class="skill-col">
+            <h3>Backend</h3>
+            <ul><li>Node.js</li><li>Apex</li><li>GraphQL</li><li>REST APIs</li><li>MuleSoft</li></ul>
+          </div>
+          <div class="skill-col">
+            <h3>Salesforce</h3>
+            <ul><li>LWC</li><li>OmniStudio</li><li>Flow</li><li>SOQL</li><li>Experience Cloud</li></ul>
+          </div>
+          <div class="skill-col">
+            <h3>DevOps</h3>
+            <ul><li>AWS</li><li>GitHub Actions</li><li>Copado</li><li>DataDog</li><li>SFDX</li></ul>
+          </div>
+        </div>
+        <div class="certs">
+          <span class="cert-badge">SF Platform Dev I</span>
+          <span class="cert-badge">SF Platform Dev II</span>
+          <span class="cert-badge">AWS Solutions Architect</span>
+          <span class="cert-badge">Copado Developer</span>
+        </div>
+      </section>
+
+      <section id="projects" class="projects container">
+        <h2>Case Studies</h2>
+        <p class="section-sub">Hands-on builds demonstrating full-stack execution.</p>
         <div class="grid">
           <article class="card">
             <h3>Product Workflow Mini App</h3>
             <p>Auth + CRUD + production deployment for a compact, real-world product flow.</p>
-            <a href="./projects/react-supabase-mini-app.html">Read case study</a>
+            <a class="card-link" href="./projects/react-supabase-mini-app.html">Read case study</a>
           </article>
 
           <article class="card">
             <h3>Weather Data Dashboard</h3>
             <p>City-based weather dashboard with live metrics, chart visualization, and provider fallback handling.</p>
-            <a href="./projects/performance-teardown.html">Read case study</a>
+            <a class="card-link" href="./projects/performance-teardown.html">Read case study</a>
           </article>
 
           <article class="card">
             <h3>Client Intake + Estimate Tool</h3>
             <p>Multi-step intake wizard that generates ballpark effort and cost estimates for freelance discovery calls.</p>
-            <a href="./projects/client-intake-estimate-tool.html">Read case study</a>
+            <a class="card-link" href="./projects/client-intake-estimate-tool.html">Read case study</a>
           </article>
 
           <article class="card">
             <h3>Pumpline Marketplace</h3>
             <p>Trust-first septic provider marketplace focused on rural homeowners, verified work history, and transparent pricing.</p>
-            <a href="./projects/pumpline-marketplace.html">Read case study</a>
+            <a class="card-link" href="./projects/pumpline-marketplace.html">Read case study</a>
           </article>
 
           <article class="card">
-            <h3>Mac Markdown Workspace (Web)</h3>
+            <h3>Mac Markdown Workspace</h3>
             <p>Markdown editor and preview workspace with Mermaid, math rendering, themes, and export capabilities.</p>
-            <a href="./projects/mac-markdown-workspace.html">Read case study</a>
+            <a class="card-link" href="./projects/mac-markdown-workspace.html">Read case study</a>
           </article>
 
           <article class="card">
             <h3>Travel Disruption Rebook Bot</h3>
             <p>A travel-ops workflow app for disruption detection, rebooking decision support, and compensation claim timelines.</p>
-            <a href="./projects/travel-disruption-rebook-bot.html">Read case study</a>
+            <a class="card-link" href="./projects/travel-disruption-rebook-bot.html">Read case study</a>
           </article>
 
           <article class="card">
             <h3>Family Cascade Testing Manager</h3>
             <p>Genetics-care workflow app for coordinating family outreach, cascade testing progress, and completion visibility.</p>
-            <a href="./projects/family-cascade-testing-manager.html">Read case study</a>
+            <a class="card-link" href="./projects/family-cascade-testing-manager.html">Read case study</a>
           </article>
 
           <article class="card">
             <h3>Sports League Management</h3>
             <p>Modular league operations platform for teams, schedules, and sport-specific workflows.</p>
-            <a href="./projects/sports-league-management.html">Read case study</a>
-          </article>
-
-          <article class="card">
-            <h3>Bar Specials Promo Tool</h3>
-            <p>Promotion workflow app for turning daily bar specials into scheduled campaigns.</p>
-            <a href="./projects/bar-specials-promo-tool.html">Read case study</a>
+            <a class="card-link" href="./projects/sports-league-management.html">Read case study</a>
           </article>
 
           <article class="card">
             <h3>Crypto Inheritance Switch</h3>
             <p>Crypto inheritance workflow product for beneficiary setup, trigger logic, and guided recovery planning.</p>
-            <a href="./projects/crypto-inheritance-switch.html">Read case study</a>
+            <a class="card-link" href="./projects/crypto-inheritance-switch.html">Read case study</a>
+          </article>
+
+          <article class="card">
+            <h3>Bar Specials Promo Tool</h3>
+            <p>Promotion workflow app for turning daily bar specials into scheduled campaigns.</p>
+            <a class="card-link" href="./projects/bar-specials-promo-tool.html">Read case study</a>
           </article>
         </div>
       </section>
-
-      <section class="panel">
-        <h2>Working Style</h2>
-        <ul>
-          <li>Milestone-first planning to reduce rework risk</li>
-          <li>Daily progress updates for active engagements</li>
-          <li>Practical tradeoff decisions with clear rationale</li>
-        </ul>
-      </section>
     </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-links">
+          <a href="mailto:andrewsolomon.edu@gmail.com">andrewsolomon.edu@gmail.com</a>
+          <a href="https://github.com/andysolomon">GitHub</a>
+          <a href="https://www.linkedin.com/in/andrew-solomon-44550a24/">LinkedIn</a>
+        </div>
+        <p class="footer-copy">&copy; 2026 Andrew Solomon</p>
+      </div>
+    </footer>
   </body>
 </html>
